@@ -1,0 +1,7 @@
+.hover--inner_icons .target{
+		transform: scale(1.1)
+}
+
+.target {
+	transition: all 1s;
+}

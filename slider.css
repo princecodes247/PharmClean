@@ -1,0 +1,14 @@
+.slider {
+	width: 150%;
+}
+
+.slider-cont {
+	width: 100%;
+	overflow: auto;
+}
+
+.slide {
+	min-height: 12em;
+	width: 13em;
+	text-align: center
+}
