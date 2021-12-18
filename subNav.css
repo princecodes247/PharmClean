@@ -1,0 +1,13 @@
+.sub_nav-item {
+		padding: 0.5em 2em;
+		transition: all 400ms;
+		cursor: pointer;
+}
+.sub_nav-item:hover {
+	background: #fff1;
+}
+
+.sub_nav-item .selected {
+		background: #fff1;
+		border-bottom: 1px solid white ;
+}

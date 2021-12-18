@@ -9,23 +9,29 @@
 	<link rel="stylesheet" href="subNav.css">
 </head>
 <body>
-	<header class="fixed top-0 w-screen bg-black py-2 px-4 flex items-center text-white h-16">PharmClean</header>
+	<header class="fixed top-0 w-screen bg-blue-600 py-2 px-4 flex justify-between items-center text-white h-16 pr-12"><div class="logo">
+		PharmClean
+	</div>
+	<div class="menu">
+		<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+	</div>
+</header>
 	<main>
-		<section class="hero flex items-center justify-center h-screen bg-gray-900">
+		<section class="hero p-16 flex items-center md:justify-start justify-center h-screen bg-blue-600">
 
-			<div class="text-white text-center ">
-				<h1 class="text-5xl mb-5">PharmClean</h1>
+			<div class="text-white text-center md:text-left">
+				<h1 class="text-5xl mb-5">The 1 solution to all your needs</h1>
 				<p class="mb-5">
 				The best solution to all your cleaning needs
 			</p>
-			<button class="bg-gray-400 hover:bg-gray-300 px-6 py-2 rounded">Get in touch</button>
+			<button class="bg-yellow-500 hover:bg-yellow-600 px-6 py-2 rounded">Get in touch</button>
 			</div>
 		</section>
-			<section class="services flex flex-col items-center justify-center  bg-gray-900">
-			<h2 class="text-3xl">What we do</h2>
+			<section class="services flex flex-col items-center justify-center my-5">
+			<h2 class="text-3xl mb-6">What we do</h2>
 			<div class="slider-cont">
-				<ul class="flex items-center gap-4 my-4 mx-3 slider">
-				<li class="bg-blue-300 w-22 p-4 rounded shadow slide">
+				<ul class="flex justify-center items-center gap-4 my-4 mx-3 slider">
+				<li class="bg-blue-500 w-22 p-4 rounded shadow slide">
 					<h4 class="mb-5">Pest Control</h4>
 					<ul>
 						<li>something</li>
@@ -33,7 +39,7 @@
 						<li>something</li>
 					</ul>
 				</li>
-				<li class="bg-blue-300 w-22 p-4 rounded shadow slide">
+				<li class="bg-blue-500 w-22 p-4 rounded shadow slide">
 					<h4 class="mb-5">Commercial Cleaning</h4>
 					<ul>
 						<li>something</li>
@@ -41,7 +47,7 @@
 						<li>something</li>
 					</ul>
 				</li>
-				<li class="bg-blue-300 w-22 p-4 rounded shadow slide">
+				<li class="bg-blue-500 w-22 p-4 rounded shadow slide">
 					<h4 class="mb-5">Apartment Cleaning</h4>
 					<ul>
 						<li>something</li>
@@ -49,7 +55,7 @@
 						<li>something</li>
 					</ul>
 				</li>
-				<li class="bg-blue-300 w-22 p-4 rounded shadow slide">
+				<li class="bg-blue-500 w-22 p-4 rounded shadow slide">
 					<h4 class="mb-5">Window Cleaning</h4>
 					<ul>
 						<li>something</li>
@@ -60,103 +66,136 @@
 			</ul>
 			</div>
 		</section>
-		<section class="about p-7 flex flex-col items-center bg-gray-600">
-			<h2 class="text-3xl">About Us</h2>
-			<nav class="flex gap-4 my-5 sub_nav">
-				<div class="sub_nav-item">Who we are</div>
-				<div class="sub_nav-item">How it Works</div>
-			</nav>
-			<div class="nav-sect">
+		<section class="about p-7 flex flex-col items-center bg-blue-600 text-white">
+			<h2 class="text-3xl my-5">About Us</h2>
+			<div class="flex flex-col md:flex-row">
+				<div class="my-5 flex-1">
 				<p>
 					Cleaning is a tedious and stressful task.
 					Because of that, we are constantly thriving to improve our already high standards to have you see us as the absolute best in the industry. Stuff stuff stuff stuff stuff stuff stuff stuff Stuffstuff stuff stuff stuff stuff stuffstuff stuff
 				</p>
-				<div class="semi-sect">
-					<h3>We Provide</h3>
-					
+				<div class="mt-6 semi-sect">
+					<h3 class="text-xl">We Provide</h3>
+					<ul class="pl-3">
+						<li>Zazu</li>
+						<li>zehhh	</li>
+						<li>Zazu eh</li>
+					</ul>
 				</div>
 			</div>
-			<div class="nav-sect hidden">
-				<p>
-					Cleaning is a tedious and stressful task.
-					Because of that, we are constantly thriving to improve our already high standards to have you see us as the absolute best in the industry. Stuff stuff stuff stuff stuff stuff stuff stuff Stuffstuff stuff stuff stuff stuff stuffstuff stuff
-				</p>
-				<div class="semi-sect">
-					<h3>We Provide</h3>
-					
-				</div>
+		<div class="img flex-1 bg-black">
+			
+		</div>
 			</div>
 		</section>
 		<section class="partners text-center p-4">
 			<h2 class="text-3xl my-5">Reasons to Choose Us</h2>
-			<p>
+			<p class="md:w-1/2 mx-auto">
 				Behind our commitment to excellence are few key attributes that define who we are and what makes us different from any other.
 			</p>
-			<ul>
-				<li>
-					Top-Rated Company
-				We hold a successful track record of satisfying our customers and getting back their bond money.
+			<ul class="my-8 mt-20 flex flex-col gap-20 sm:grid sm:grid-cols-2 md:flex md:flex-row text-center sm:gap-8 md:gap-20 md:p-20">
+				<li >
+					<div class="mx-auto mb-4 bg-black w-14 h-14"></div>
+					<h4 class="text-2xl mb-3">Top-Rated Company</h4>
+					We hold a successful track record of satisfying our customers and getting back their bond money.
 				</li>
-				<li>
-					Superior Quality
+				<li >
+					<div class="mx-auto mb-4 bg-black w-14 h-14"></div>
+					<h4 class="text-2xl mb-3">Superior Quality</h4>
 					We use the most excellent quality tools and equipment to get all the dust and dirt out of your premises.
 				</li>
-				<li>
-					Eco-Friendly Products
+				<li >
+					<div class="mx-auto mb-4 bg-black w-14 h-14"></div>
+					<h4 class="text-2xl mb-3">Eco-Friendly Products</h4>
 					We use biodegradable products which do not harm the environment, pets or humans in any way.
 				</li>
 			</ul>
 		</section>
-		<section class="partners">
-			<ul>
-				<li>
-					Partner
-				</li>
-			</ul>
+
+		<section class="testimonies flex flex-col items-center justify-center bg-blue-600">
+			<div class="mb-6 w-3/4 testimony">
+				<!-- BUG: PHOTO ELEMENT OVERLAPS OTHER ELEMENTS -->
+
+
+				<div class="pic bg-black relative top-5 left-2 w-10 h-10 rounded-3xl"></div>
+				<div class="px-3 pb-4 pt-6 flex flex-col items-center text-center bg-gray-200 rounded content">
+
+						<!-- 
+					ALTERNATIVE
+					=-----------------=
+							<div class="pic bg-black relative top-5 left-6 w-10 h-10 rounded-3xl"></div>
+				<div class="px-3 pb-4 pt-6 flex flex-col items-center text-center border-yellow-400 text-white border-2 rounded-xl content">
+				 -->
+	
+					<p class="text-sm body">PharmClean service is absolutely wonderful. So far, they are the best cleaning service I've used in my company</p>
+					<div class="bg-black my-4 h-1 w-10 rating"></div>
+					<p class="text-xs">Lambert Walter, Wavers CEO</p>
+				</div>
+			</div>
+			<div class="mb-5 flex gap-3 testimony_selector">
+				<div class="dot w-4 h-4 rounded bg-gray-300"></div>
+				<div class="dot w-4 h-4 rounded bg-gray-300"></div>
+				<div class="dot w-4 h-4 rounded bg-gray-300"></div>
+			</div>
 		</section>
-		<section class="testimonies flex flex-col items-center justify-center bg-gray-900">
-			Stuff
-		</section>
-		<section class="stats p-5">
-			<ul class="grid grid-cols-2 text-center gap-6">
-				<li>
-					<h4>
+		<section class="stats my-5 p-5">
+			<ul class="grid grid-cols-2 md:flex md:items-center justify-evenly text-center gap-6">
+				<li class="flex flex-col items-center gap-2">
+					<div class="icon">
+						<svg class="w-20 h-20" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+					</div>
+					<h4 class="text-5xl">
 						540+
 					</h4>
 					<p>Happy Customers</p>
 				</li>
-				<li>
-						<h4>
+				<li class="flex flex-col items-center gap-2">
+					<div class="icon">
+						<svg class="w-20 h-20" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M5 13l4 4L19 7"></path></svg>
+					</div>
+						<h4 class="text-5xl">
 						993+
 					</h4>
 					<p>Cleans Completed</p>
 				</li>
-				<li>
-						<h4>
+				<li class="flex flex-col items-center gap-2">
+					<div class="icon">
+						<svg class="w-20 h-20" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+					</div>
+						<h4 class="text-5xl">
 						100%
 					</h4>
 					<p>Service Guarantee</p>
 				</li>
-				<li>
-						<h4>
+				<li class="flex flex-col items-center gap-2">
+					<div class="icon">
+						<svg class="w-20 h-20" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+					</div>
+						<h4 class="text-5xl">
 						30+
 					</h4>
 					<p>Cleaners</p>
 				</li>
 			</ul>
 		</section>
-		<section class="contact flex flex-col items-center text-white justify-center p-5 bg-gray-900 py-7">
+		<section class="contact flex flex-col items-center text-white bg-blue-600 justify-center p-5  py-7">
 			<h2 class="text-3xl my-4">Contact Us</h2>
-			<form action="" class="gap-3 w-5/6 flex flex-col">
-				<input class="rounded p-2" type="text">
-				<input class="rounded p-2" type="text">
-				<textarea class="rounded p-2"></textarea>
-				<button class="px-8 py-3 rounded bg-gray-400">Send us a Message</button>
+			<div class="sociallinks p-4 flex gap-4 items-between">
+				<div class="bg-white w-8 h-8 p-3 hover:bg-green-400"></div>
+				<div class="bg-white w-8 h-8 p-3 hover:bg-green-400"></div>
+				<div class="bg-white w-8 h-8 p-3 hover:bg-green-400"></div>
+				<div class="bg-white w-8 h-8 p-3 hover:bg-green-400"></div>
+			</div>
+			<form action="" class="text-black gap-3 w-5/6 flex flex-col">
+				<input class="rounded p-2" type="text" placeholder="Email address">
+				
+				<textarea class="rounded p-2" placeholder="Your message for us"></textarea>
+				<button class="px-8 py-3 rounded bg-yellow-500 hover:bg-yellow-600 text-white">Send us a Message</button>
 			</form>
 		</section>
  
 	</main>
-	<footer class="text-center text-xs p-4">
+	<footer class="text-center bg-blue-600 text-xs p-4">
 		<div class="footer-parts">
 			links
 		</div>
