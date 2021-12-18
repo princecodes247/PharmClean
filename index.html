@@ -12,9 +12,24 @@
 	<header class="fixed top-0 w-screen bg-blue-600 py-2 px-4 flex justify-between items-center text-white h-16 pr-12"><div class="logo">
 		PharmClean
 	</div>
-	<div class="menu">
+	<div class="navBtn menu">
 		<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
 	</div>
+	<div class="flex flex-col md:hidden px-3 py-6 bg-white text-black rounded items-stretch self-start shadow absolute top-12 right-12 transition-opacity opacity-0 pointer-events-none navMenu">
+            
+            <ul class="gap-1 mb-4 flex text-center flex-col">
+              <a href="/" class="hover:text-yellow-500 p-1">Home</a>
+              <a href="/about" class="hover:text-yellow-500 p-1">About</a>
+              <a href="/" class="hover:text-yellow-500 p-1">Our Mission</a>
+              <a href="/" class="hover:text-yellow-500 p-1">Works</a>
+            
+              
+            </ul>
+          <div class="flex gap-5">
+      
+            <a href="#contact" class="bg-yellow-500 hover:shadow text-white px-8 py-2 mx-8 rounded-md mt-3 ">Contact Us</a>
+          </div>
+    </div>
 </header>
 	<main>
 		<section class="hero p-16 flex items-center md:justify-start justify-center h-screen bg-blue-600">
@@ -31,7 +46,7 @@
 			<h2 class="text-3xl mb-6">What we do</h2>
 			<div class="slider-cont">
 				<ul class="flex justify-center items-center gap-4 my-4 mx-3 slider">
-				<li class="bg-blue-500 w-22 p-4 rounded shadow slide">
+				<li class="bg-blue-500 p-4 shadow slide jump">
 					<h4 class="mb-5">Pest Control</h4>
 					<ul>
 						<li>something</li>
@@ -39,7 +54,7 @@
 						<li>something</li>
 					</ul>
 				</li>
-				<li class="bg-blue-500 w-22 p-4 rounded shadow slide">
+				<li class="bg-blue-500 w-22 p-4 shadow slide jump">
 					<h4 class="mb-5">Commercial Cleaning</h4>
 					<ul>
 						<li>something</li>
@@ -47,7 +62,7 @@
 						<li>something</li>
 					</ul>
 				</li>
-				<li class="bg-blue-500 w-22 p-4 rounded shadow slide">
+				<li class="bg-blue-500 w-22 p-4 rounded shadow slide jump">
 					<h4 class="mb-5">Apartment Cleaning</h4>
 					<ul>
 						<li>something</li>
@@ -55,7 +70,7 @@
 						<li>something</li>
 					</ul>
 				</li>
-				<li class="bg-blue-500 w-22 p-4 rounded shadow slide">
+				<li class="bg-blue-500 w-22 p-4 rounded shadow slide jump">
 					<h4 class="mb-5">Window Cleaning</h4>
 					<ul>
 						<li>something</li>
@@ -181,10 +196,10 @@
 		<section class="contact flex flex-col items-center text-white bg-blue-600 justify-center p-5  py-7">
 			<h2 class="text-3xl my-4">Contact Us</h2>
 			<div class="sociallinks p-4 flex gap-4 items-between">
-				<div class="bg-white w-8 h-8 p-3 hover:bg-green-400"></div>
-				<div class="bg-white w-8 h-8 p-3 hover:bg-green-400"></div>
-				<div class="bg-white w-8 h-8 p-3 hover:bg-green-400"></div>
-				<div class="bg-white w-8 h-8 p-3 hover:bg-green-400"></div>
+				<div class="bg-white w-8 h-8 p-3 hover:bg-yellow-400 "></div>
+				<div class="bg-white w-8 h-8 p-3 hover:bg-yellow-400 "></div>
+				<div class="bg-white w-8 h-8 p-3 hover:bg-yellow-400 "></div>
+				<div class="bg-white w-8 h-8 p-3 hover:bg-yellow-400 "></div>
 			</div>
 			<form action="" class="text-black gap-3 w-5/6 flex flex-col">
 				<input class="rounded p-2" type="text" placeholder="Email address">
@@ -203,5 +218,6 @@
 			Copyright
 		</div>
 	</footer>
+	<script src="menu.js"></script>
 </body>
 </html>

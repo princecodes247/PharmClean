@@ -1,5 +1,5 @@
 .slider {
-	/*width: 150%;*/
+	width: 150%;
 }
 
 .slider-cont {
@@ -10,5 +10,14 @@
 .slide {
 	min-height: 12em;
 	width: 13em;
-	text-align: center
+	text-align: center;
+	
+}
+
+
+.jump {
+	transition: transform 300ms;
+}
+.jump:hover {
+	transform: translateY(-15px);
 }
